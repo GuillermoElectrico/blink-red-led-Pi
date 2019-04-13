@@ -29,7 +29,7 @@ if [ ! -e /sys/class/gpio/gpio$Led ]; then
 fi
 echo "out" > /sys/class/gpio/gpio$Led/direction
 
-echo "Inicio de ejcución del script - $(date)"
+echo "Inicio de ejecución del script - $(date)"
 
 while :
 do

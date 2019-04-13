@@ -10,14 +10,14 @@ Simple script bash to blink Raspberry Pi onboard led red to heartbeat
 
 #### Software
 
-* raspbian
+* Raspbian or DietPi
 
 ### Installation
 * Download from Github 
     ```sh
     $ git clone https://github.com/GuillermoElectrico/blink-red-led-Pi.git
 	$ cd blink-red-led-Pi/
-	$ sudo chmod+x blink-red-led-Pi.sh
+	$ sudo chmod +x blink-red-led-Pi.sh
 
 * To run the script at system startup. Add to following lines to the end of /etc/rc.local but before exit:
     ```sh
